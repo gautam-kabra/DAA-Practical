@@ -1,7 +1,14 @@
-/*
- * C++ program to count all paths from a source to a
- * destination.
- * Note that the original example has been refactored.
+/*Implement program Count all possible Paths
+between two Vertices.
+Statement Count the total number of ways or paths
+that exist between two vertices in a directed graph.
+These paths don’t contain a cycle, the simple enough
+reason is that a cycle contains an infinite number of
+paths and hence they create a problem.
+Input: Count paths between A and E
+Output: Total paths between A and E are 4
+Input: Count paths between A and C
+Output: Total paths between A and C are 2
  */
 #include <bits/stdc++.h>
 using namespace std;
