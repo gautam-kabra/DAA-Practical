@@ -1,3 +1,14 @@
+/*Implement program to print all subsets of a given
+Set or Array
+Statement Given a set of positive integers, find all its
+subsets.
+Input: array = {1, 2, 3}
+Output: // this space denotes null element.
+ {1} {1 2} {1 2 3} {1 3} {2}
+{2 3} {3}
+Input: 1 2
+Output: 1 2 1 2
+  */
 #include <iostream>
 #include <vector>
 using namespace std;
